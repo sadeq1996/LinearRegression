@@ -2,7 +2,6 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# روی ایکس هت و وای هت کار میکنی تا داده هارا صحیح بخواند ینی برای هر ایکس ؛ وای متناظر باشد
 
 file=pd.read_csv("./data.csv")
 # df= file.set_index("Date")
@@ -18,11 +17,6 @@ b = np.arange(1, 501).reshape(500, 1)
 
 combined_array = np.hstack((a, b))
 
-# print(combined_array)
-
-
-
-#=================
 
 xhat = combined_array
 
